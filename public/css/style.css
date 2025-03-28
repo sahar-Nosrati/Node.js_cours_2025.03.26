@@ -1,0 +1,54 @@
+body {
+  background-image: url("../img/Nowruz-Haft-Sin-Table.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.site-container {
+  display: grid;
+  place-items: center;
+  
+  min-height: 100vh;
+  padding: 1.5em;
+}
+
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 500px;
+  height: 300px;
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, 0.455);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  font-size: 1.5em;
+}
+
+
+.card-header{
+  color: rgba(64,196,255, 0.838);
+  font-size: 1.15em;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+.card-footer {
+  font-size: 1em;
+  color: #446;
+}
+.link {
+  color: #446;
+  font-size: 1.15em;
+  font-family:'Times New Roman', Times, serif;
+  word-wrap:break-word;
+  text-align: center;
+  text-decoration: none;
+}
